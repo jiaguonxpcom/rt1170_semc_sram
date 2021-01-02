@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>3</fileVersion>
     <configuration>
@@ -190,11 +190,11 @@
                 </option>
                 <option>
                     <name>GenLocaleTags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>GenLocaleDisplayOnly</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>DSPExtension</name>
@@ -267,15 +267,15 @@
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagWarning</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagError</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCObjPrefix</name>
@@ -304,7 +304,7 @@
                 </option>
                 <option>
                     <name>IExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCLangConformance</name>
@@ -340,7 +340,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CompilerMisraOverride</name>
@@ -348,32 +348,17 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>CCStdIncCheck</name>
                     <state>0</state>
@@ -534,15 +519,15 @@
                 </option>
                 <option>
                     <name>AWarnOne</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange1</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>ADebug</name>
@@ -647,25 +632,24 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
                     <state>0</state>
                 </option>
                 <option>
                     <name>AExtraOptionsV2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AsmNoLiteralPool</name>
@@ -691,7 +675,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -707,22 +691,22 @@
             <name>CUSTOM</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <extensions/>
-                <cmdline/>
+                <extensions></extensions>
+                <cmdline></cmdline>
                 <hasPrio>0</hasPrio>
             </data>
         </settings>
         <settings>
             <name>BICOMP</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
         <settings>
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild/>
-                <postbuild/>
+                <prebuild></prebuild>
+                <postbuild></postbuild>
             </data>
         </settings>
         <settings>
@@ -754,31 +738,31 @@
                 </option>
                 <option>
                     <name>IlinkKeepSymbols</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkConfigDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
@@ -814,7 +798,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEnableRemarks</name>
@@ -822,19 +806,19 @@
                 </option>
                 <option>
                     <name>IlinkSuppressDiags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsRem</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsWarn</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsErr</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkWarningsAreErrors</name>
@@ -846,7 +830,7 @@
                 </option>
                 <option>
                     <name>IlinkExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkLowLevelInterfaceSlave</name>
@@ -858,7 +842,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -993,11 +977,11 @@
                 </option>
                 <option>
                     <name>IlinkStackControlFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkStackCallGraphFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CrcAlgorithm</name>
@@ -1019,7 +1003,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile_AltDefault</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEncInput</name>
@@ -1051,19 +1035,19 @@
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign2</name>
-                    <state/>
+                    <state></state>
                 </option>
             </data>
         </settings>
@@ -1076,7 +1060,7 @@
                 <debug>1</debug>
                 <option>
                     <name>IarchiveInputs</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IarchiveOverride</name>
@@ -1091,7 +1075,7 @@
         <settings>
             <name>BILINK</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
     </configuration>
     <configuration>
@@ -1283,11 +1267,11 @@
                 </option>
                 <option>
                     <name>GenLocaleTags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>GenLocaleDisplayOnly</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>DSPExtension</name>
@@ -1362,15 +1346,15 @@
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagWarning</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagError</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCObjPrefix</name>
@@ -1399,7 +1383,7 @@
                 </option>
                 <option>
                     <name>IExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCLangConformance</name>
@@ -1435,7 +1419,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CompilerMisraOverride</name>
@@ -1443,32 +1427,17 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>CCStdIncCheck</name>
                     <state>0</state>
@@ -1629,15 +1598,15 @@
                 </option>
                 <option>
                     <name>AWarnOne</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange1</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>ADebug</name>
@@ -1742,25 +1711,24 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
                     <state>0</state>
                 </option>
                 <option>
                     <name>AExtraOptionsV2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AsmNoLiteralPool</name>
@@ -1786,7 +1754,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -1802,22 +1770,22 @@
             <name>CUSTOM</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <extensions/>
-                <cmdline/>
+                <extensions></extensions>
+                <cmdline></cmdline>
                 <hasPrio>0</hasPrio>
             </data>
         </settings>
         <settings>
             <name>BICOMP</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
         <settings>
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild/>
-                <postbuild/>
+                <prebuild></prebuild>
+                <postbuild></postbuild>
             </data>
         </settings>
         <settings>
@@ -1849,31 +1817,31 @@
                 </option>
                 <option>
                     <name>IlinkKeepSymbols</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkConfigDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
@@ -1909,7 +1877,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEnableRemarks</name>
@@ -1917,19 +1885,19 @@
                 </option>
                 <option>
                     <name>IlinkSuppressDiags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsRem</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsWarn</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsErr</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkWarningsAreErrors</name>
@@ -1941,7 +1909,7 @@
                 </option>
                 <option>
                     <name>IlinkExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkLowLevelInterfaceSlave</name>
@@ -1953,7 +1921,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -2088,11 +2056,11 @@
                 </option>
                 <option>
                     <name>IlinkStackControlFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkStackCallGraphFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CrcAlgorithm</name>
@@ -2114,7 +2082,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile_AltDefault</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEncInput</name>
@@ -2146,19 +2114,19 @@
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign2</name>
-                    <state/>
+                    <state></state>
                 </option>
             </data>
         </settings>
@@ -2171,7 +2139,7 @@
                 <debug>1</debug>
                 <option>
                     <name>IarchiveInputs</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IarchiveOverride</name>
@@ -2186,7 +2154,7 @@
         <settings>
             <name>BILINK</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
     </configuration>
     <configuration>
@@ -2378,11 +2346,11 @@
                 </option>
                 <option>
                     <name>GenLocaleTags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>GenLocaleDisplayOnly</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>DSPExtension</name>
@@ -2455,15 +2423,15 @@
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagWarning</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagError</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCObjPrefix</name>
@@ -2492,7 +2460,7 @@
                 </option>
                 <option>
                     <name>IExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCLangConformance</name>
@@ -2528,7 +2496,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CompilerMisraOverride</name>
@@ -2536,32 +2504,17 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>CCStdIncCheck</name>
                     <state>0</state>
@@ -2722,15 +2675,15 @@
                 </option>
                 <option>
                     <name>AWarnOne</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange1</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>ADebug</name>
@@ -2835,25 +2788,24 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
                     <state>0</state>
                 </option>
                 <option>
                     <name>AExtraOptionsV2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AsmNoLiteralPool</name>
@@ -2879,7 +2831,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -2895,22 +2847,22 @@
             <name>CUSTOM</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <extensions/>
-                <cmdline/>
+                <extensions></extensions>
+                <cmdline></cmdline>
                 <hasPrio>0</hasPrio>
             </data>
         </settings>
         <settings>
             <name>BICOMP</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
         <settings>
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild/>
-                <postbuild/>
+                <prebuild></prebuild>
+                <postbuild></postbuild>
             </data>
         </settings>
         <settings>
@@ -2942,31 +2894,31 @@
                 </option>
                 <option>
                     <name>IlinkKeepSymbols</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkConfigDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
@@ -3002,7 +2954,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEnableRemarks</name>
@@ -3010,19 +2962,19 @@
                 </option>
                 <option>
                     <name>IlinkSuppressDiags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsRem</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsWarn</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsErr</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkWarningsAreErrors</name>
@@ -3034,7 +2986,7 @@
                 </option>
                 <option>
                     <name>IlinkExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkLowLevelInterfaceSlave</name>
@@ -3046,7 +2998,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -3181,11 +3133,11 @@
                 </option>
                 <option>
                     <name>IlinkStackControlFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkStackCallGraphFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CrcAlgorithm</name>
@@ -3207,7 +3159,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile_AltDefault</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEncInput</name>
@@ -3239,19 +3191,19 @@
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign2</name>
-                    <state/>
+                    <state></state>
                 </option>
             </data>
         </settings>
@@ -3264,7 +3216,7 @@
                 <debug>0</debug>
                 <option>
                     <name>IarchiveInputs</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IarchiveOverride</name>
@@ -3272,14 +3224,14 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state/>
+                    <state></state>
                 </option>
             </data>
         </settings>
         <settings>
             <name>BILINK</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
     </configuration>
     <configuration>
@@ -3471,11 +3423,11 @@
                 </option>
                 <option>
                     <name>GenLocaleTags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>GenLocaleDisplayOnly</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>DSPExtension</name>
@@ -3550,15 +3502,15 @@
                 </option>
                 <option>
                     <name>CCDiagRemark</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagWarning</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCDiagError</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCObjPrefix</name>
@@ -3587,7 +3539,7 @@
                 </option>
                 <option>
                     <name>IExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CCLangConformance</name>
@@ -3623,7 +3575,7 @@
                 </option>
                 <option>
                     <name>PreInclude</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CompilerMisraOverride</name>
@@ -3631,32 +3583,17 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>CCStdIncCheck</name>
                     <state>0</state>
@@ -3817,15 +3754,15 @@
                 </option>
                 <option>
                     <name>AWarnOne</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange1</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AWarnRange2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>ADebug</name>
@@ -3930,25 +3867,24 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    
-                <state>$PROJ_DIR$/board</state>
-          <state>$PROJ_DIR$/CMSIS</state>
-          <state>$PROJ_DIR$/component/lists</state>
-          <state>$PROJ_DIR$/component/serial_manager</state>
-          <state>$PROJ_DIR$/component/uart</state>
-          <state>$PROJ_DIR$/device</state>
-          <state>$PROJ_DIR$/drivers</state>
-          <state>$PROJ_DIR$/startup</state>
-          <state>$PROJ_DIR$/utilities</state>
-          <state>$PROJ_DIR$/xip</state>
-        </option>
+                    <state>$PROJ_DIR$/board</state>
+                    <state>$PROJ_DIR$/CMSIS</state>
+                    <state>$PROJ_DIR$/component/lists</state>
+                    <state>$PROJ_DIR$/component/serial_manager</state>
+                    <state>$PROJ_DIR$/component/uart</state>
+                    <state>$PROJ_DIR$/device</state>
+                    <state>$PROJ_DIR$/drivers</state>
+                    <state>$PROJ_DIR$/startup</state>
+                    <state>$PROJ_DIR$/utilities</state>
+                    <state>$PROJ_DIR$/xip</state>
+                </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
                     <state>0</state>
                 </option>
                 <option>
                     <name>AExtraOptionsV2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>AsmNoLiteralPool</name>
@@ -3974,7 +3910,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -3990,22 +3926,22 @@
             <name>CUSTOM</name>
             <archiveVersion>3</archiveVersion>
             <data>
-                <extensions/>
-                <cmdline/>
+                <extensions></extensions>
+                <cmdline></cmdline>
                 <hasPrio>0</hasPrio>
             </data>
         </settings>
         <settings>
             <name>BICOMP</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
         <settings>
             <name>BUILDACTION</name>
             <archiveVersion>1</archiveVersion>
             <data>
-                <prebuild/>
-                <postbuild/>
+                <prebuild></prebuild>
+                <postbuild></postbuild>
             </data>
         </settings>
         <settings>
@@ -4037,31 +3973,31 @@
                 </option>
                 <option>
                     <name>IlinkKeepSymbols</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkConfigDefines</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkMapFile</name>
@@ -4097,7 +4033,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEnableRemarks</name>
@@ -4105,19 +4041,19 @@
                 </option>
                 <option>
                     <name>IlinkSuppressDiags</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsRem</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsWarn</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkTreatAsErr</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkWarningsAreErrors</name>
@@ -4129,7 +4065,7 @@
                 </option>
                 <option>
                     <name>IlinkExtraOptions</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkLowLevelInterfaceSlave</name>
@@ -4141,7 +4077,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -4276,11 +4212,11 @@
                 </option>
                 <option>
                     <name>IlinkStackControlFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkStackCallGraphFile</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>CrcAlgorithm</name>
@@ -4302,7 +4238,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile_AltDefault</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkEncInput</name>
@@ -4334,19 +4270,19 @@
                 </option>
                 <option>
                     <name>IlinkRawBinaryFile2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySymbol2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinarySegment2</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkRawBinaryAlign2</name>
-                    <state/>
+                    <state></state>
                 </option>
             </data>
         </settings>
@@ -4359,7 +4295,7 @@
                 <debug>0</debug>
                 <option>
                     <name>IarchiveInputs</name>
-                    <state/>
+                    <state></state>
                 </option>
                 <option>
                     <name>IarchiveOverride</name>
@@ -4367,266 +4303,266 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state/>
+                    <state></state>
                 </option>
             </data>
         </settings>
         <settings>
             <name>BILINK</name>
             <archiveVersion>0</archiveVersion>
-            <data/>
+            <data />
         </settings>
     </configuration>
     <group>
-    <name>board</name>
-    <file>
-      <name>$PROJ_DIR$\board\board.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\board\board.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\board\clock_config.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\board\clock_config.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\board\dcd.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\board\dcd.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\board\pin_mux.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\board\pin_mux.h</name>
-    </file>
-  </group>
-  <group>
-    <name>CMSIS</name>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\arm_common_tables.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\arm_const_structs.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\arm_math.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\cmsis_armcc.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\cmsis_armclang.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\cmsis_armclang_ltm.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\cmsis_compiler.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\cmsis_gcc.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\cmsis_iccarm.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\cmsis_version.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\core_cm7.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\CMSIS\mpu_armv7.h</name>
-    </file>
-  </group>
-  <group>
-    <name>component</name>
-    <group>
-      <name>lists</name>
-      <file>
-        <name>$PROJ_DIR$\component\lists\fsl_component_generic_list.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\component\lists\fsl_component_generic_list.h</name>
-      </file>
+        <name>board</name>
+        <file>
+            <name>$PROJ_DIR$\board\board.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\board.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\clock_config.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\clock_config.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\dcd.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\dcd.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\pin_mux.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\pin_mux.h</name>
+        </file>
     </group>
     <group>
-      <name>serial_manager</name>
-      <file>
-        <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.h</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_internal.h</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.h</name>
-      </file>
+        <name>CMSIS</name>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\arm_common_tables.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\arm_const_structs.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\arm_math.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\cmsis_armcc.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\cmsis_armclang.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\cmsis_armclang_ltm.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\cmsis_compiler.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\cmsis_gcc.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\cmsis_iccarm.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\cmsis_version.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\core_cm7.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CMSIS\mpu_armv7.h</name>
+        </file>
     </group>
     <group>
-      <name>uart</name>
-      <file>
-        <name>$PROJ_DIR$\component\uart\fsl_adapter_lpuart.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\component\uart\fsl_adapter_uart.h</name>
-      </file>
+        <name>component</name>
+        <group>
+            <name>lists</name>
+            <file>
+                <name>$PROJ_DIR$\component\lists\fsl_component_generic_list.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\component\lists\fsl_component_generic_list.h</name>
+            </file>
+        </group>
+        <group>
+            <name>serial_manager</name>
+            <file>
+                <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_manager.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_internal.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\component\serial_manager\fsl_component_serial_port_uart.h</name>
+            </file>
+        </group>
+        <group>
+            <name>uart</name>
+            <file>
+                <name>$PROJ_DIR$\component\uart\fsl_adapter_lpuart.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\component\uart\fsl_adapter_uart.h</name>
+            </file>
+        </group>
     </group>
-  </group>
-  <group>
-    <name>device</name>
-    <file>
-      <name>$PROJ_DIR$\device\fsl_device_registers.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\device\MIMXRT1176_cm7.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\device\MIMXRT1176_cm7_features.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\device\system_MIMXRT1176_cm7.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\device\system_MIMXRT1176_cm7.h</name>
-    </file>
-  </group>
-  <group>
-    <name>doc</name>
-    <file>
-      <name>$PROJ_DIR$\doc\readme.txt</name>
-    </file>
-  </group>
-  <group>
-    <name>drivers</name>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_anatop.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_anatop.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_anatop_ai.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_anatop_ai.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_clock.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_clock.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_common.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_common.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_dcdc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_dcdc.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_gpio.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_gpio.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_iomuxc.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_lpuart.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_lpuart.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_pmu.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_pmu.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_semc.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\drivers\fsl_semc.h</name>
-    </file>
-  </group>
-  <group>
-    <name>evkmimxrt1170</name>
-    <file>
-      <name>$PROJ_DIR$\evkmimxrt1170\evkmimxrt1170_connect_cm7.mac</name>
-    </file>
-  </group>
-  <group>
-    <name>MIMXRT1176</name>
     <group>
-      <name>iar</name>
-      <file>
-        <name>$PROJ_DIR$\MIMXRT1176\iar\MIMXRT1176xxxxx_cm7_ram.icf</name>
-      </file>
+        <name>device</name>
+        <file>
+            <name>$PROJ_DIR$\device\fsl_device_registers.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\MIMXRT1176_cm7.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\MIMXRT1176_cm7_features.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\system_MIMXRT1176_cm7.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\device\system_MIMXRT1176_cm7.h</name>
+        </file>
     </group>
-  </group>
-  <group>
-    <name>source</name>
-    <file>
-      <name>$PROJ_DIR$\source\semc_sdram.c</name>
-    </file>
-  </group>
-  <group>
-    <name>startup</name>
-    <file>
-      <name>$PROJ_DIR$\startup\startup_MIMXRT1176_cm7.s</name>
-    </file>
-  </group>
-  <group>
-    <name>utilities</name>
-    <file>
-      <name>$PROJ_DIR$\utilities\fsl_assert.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\utilities\fsl_debug_console.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\utilities\fsl_debug_console.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\utilities\fsl_debug_console_conf.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\utilities\fsl_str.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\utilities\fsl_str.h</name>
-    </file>
-  </group>
-  <group>
-    <name>xip</name>
-    <file>
-      <name>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.h</name>
-    </file>
-  </group>
+    <group>
+        <name>doc</name>
+        <file>
+            <name>$PROJ_DIR$\doc\readme.txt</name>
+        </file>
+    </group>
+    <group>
+        <name>drivers</name>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_anatop.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_anatop.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_anatop_ai.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_anatop_ai.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_clock.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_clock.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_common.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_dcdc.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_dcdc.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpio.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_gpio.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_iomuxc.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_lpuart.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_pmu.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_pmu.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_semc.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\drivers\fsl_semc.h</name>
+        </file>
+    </group>
+    <group>
+        <name>evkmimxrt1170</name>
+        <file>
+            <name>$PROJ_DIR$\evkmimxrt1170\evkmimxrt1170_connect_cm7.mac</name>
+        </file>
+    </group>
+    <group>
+        <name>MIMXRT1176</name>
+        <group>
+            <name>iar</name>
+            <file>
+                <name>$PROJ_DIR$\MIMXRT1176\iar\MIMXRT1176xxxxx_cm7_ram.icf</name>
+            </file>
+        </group>
+    </group>
+    <group>
+        <name>source</name>
+        <file>
+            <name>$PROJ_DIR$\source\semc_sram.c</name>
+        </file>
+    </group>
+    <group>
+        <name>startup</name>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_MIMXRT1176_cm7.s</name>
+        </file>
+    </group>
+    <group>
+        <name>utilities</name>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_assert.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_debug_console_conf.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_str.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\utilities\fsl_str.h</name>
+        </file>
+    </group>
+    <group>
+        <name>xip</name>
+        <file>
+            <name>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\evkmimxrt1170_flexspi_nor_config.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xip\fsl_flexspi_nor_boot.h</name>
+        </file>
+    </group>
 </project>

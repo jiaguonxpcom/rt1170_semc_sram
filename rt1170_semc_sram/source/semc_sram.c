@@ -47,18 +47,18 @@ status_t BOARD_InitSRAM(void)
     // config SRAM
     sram_config.cePinMux          = kSEMC_MUXCSX2;
     sram_config.address           = SRAM_BASE;
-    sram_config.memsize_kbytes    = 1024*512;
-    sram_config.addrPortWidth     = 16;
+    sram_config.memsize_kbytes    = 1024*1;
+    sram_config.addrPortWidth     = 20;
     sram_config.advActivePolarity = kSEMC_AdvActiveLow;
     sram_config.addrMode          = kSEMC_AddrDataNonMux;
     sram_config.burstLen          = kSEMC_Nor_BurstLen1;
-    sram_config.portSize          = kSEMC_PortSize16Bit;
+    sram_config.portSize          = kSEMC_PortSize8Bit;
     sram_config.syncMode          = kSEMC_AsyncMode;
-    sram_config.waitEnable        = true;
+    sram_config.waitEnable        = false;
     sram_config.waitSample        = 0;
     sram_config.advLevelCtrl      = kSEMC_AdvHigh;
     
-    sram_config.tCeSetup_Ns        = 20; // CS setup and hold
+    sram_config.tCeSetup_Ns        = 20; // CS setup and hold 
     sram_config.tCeHold_Ns         = 20;
     sram_config.tCeInterval_Ns     = 20; // CS interval
     sram_config.readHoldTime_Ns    = 20; // Only for sync mode
