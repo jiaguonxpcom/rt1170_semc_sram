@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="MIMXRT1176xxxxx" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.8 http://mcuxpresso.nxp.com/XSD/mex_configuration_1.8.xsd" uuid="31f79a1f-5083-4619-a06e-f6c3bf08260e" version="1.8" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_1.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MIMXRT1176xxxxx</processor>
+      <package>MIMXRT1176DVMAA</package>
+      <mcu_data>ksdk2_0</mcu_data>
+      <cores selected="cm7">
+         <core name="Cortex-M4F" id="cm4" description=""/>
+         <core name="Cortex-M7F" id="cm7" description=""/>
+      </cores>
+      <description>Configuration imported from C:\Users\nxa16038\Desktop\temp\semc_cm7_sram</description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+      <generate_extended_information>false</generate_extended_information>
+      <generate_code_modified_registers_only>false</generate_code_modified_registers_only>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="8.0" enabled="true" update_project_code="true">
+         <pins_profile>
+            <processor_version>0.8.1</processor_version>
+            <power_domains/>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>true</callFromInitBoot>
+                  <coreID>cm7</coreID>
+                  <enableClock>true</enableClock>
+               </options>
+               <dependencies>
+                  <dependency resourceType="Peripheral" resourceId="LPUART1" description="Peripheral LPUART1 is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="SEMC" description="Peripheral SEMC is not initialized" problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="cm7">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.iomuxc" description="Pins initialization requires the IOMUXC Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="cm7">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+               </dependencies>
+               <pins>
+                  <pin peripheral="LPUART1" signal="RXD" pin_num="M15" pin_signal="GPIO_AD_25">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_up_down_config" value="Pull_Down"/>
+                        <pin_feature name="pull_keeper_select" value="Pull"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                        <pin_feature name="drive_strength" value="High"/>
+                        <pin_feature name="slew_rate" value="Slow"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="LPUART1" signal="TXD" pin_num="L13" pin_signal="GPIO_AD_24">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_up_down_config" value="Pull_Down"/>
+                        <pin_feature name="pull_keeper_select" value="Pull"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                        <pin_feature name="drive_strength" value="High"/>
+                        <pin_feature name="slew_rate" value="Slow"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 00" pin_num="F3" pin_signal="GPIO_EMC_B1_00">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 01" pin_num="F2" pin_signal="GPIO_EMC_B1_01">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 02" pin_num="G4" pin_signal="GPIO_EMC_B1_02">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 03" pin_num="E4" pin_signal="GPIO_EMC_B1_03">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 04" pin_num="H5" pin_signal="GPIO_EMC_B1_04">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 05" pin_num="F4" pin_signal="GPIO_EMC_B1_05">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 06" pin_num="H4" pin_signal="GPIO_EMC_B1_06">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 07" pin_num="H3" pin_signal="GPIO_EMC_B1_07">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 08" pin_num="E3" pin_signal="GPIO_EMC_B1_30">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 09" pin_num="D2" pin_signal="GPIO_EMC_B1_31">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 10" pin_num="D1" pin_signal="GPIO_EMC_B1_32">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 11" pin_num="E2" pin_signal="GPIO_EMC_B1_33">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 12" pin_num="E1" pin_signal="GPIO_EMC_B1_34">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 13" pin_num="F1" pin_signal="GPIO_EMC_B1_35">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 14" pin_num="G1" pin_signal="GPIO_EMC_B1_36">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 15" pin_num="H1" pin_signal="GPIO_EMC_B1_37">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 00" pin_num="A3" pin_signal="GPIO_EMC_B1_09">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 01" pin_num="A2" pin_signal="GPIO_EMC_B1_10">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 02" pin_num="C2" pin_signal="GPIO_EMC_B1_11">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 03" pin_num="C5" pin_signal="GPIO_EMC_B1_12">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 04" pin_num="D5" pin_signal="GPIO_EMC_B1_13">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 05" pin_num="B1" pin_signal="GPIO_EMC_B1_14">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 06" pin_num="C1" pin_signal="GPIO_EMC_B1_15">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 07" pin_num="D3" pin_signal="GPIO_EMC_B1_16">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 08" pin_num="B3" pin_signal="GPIO_EMC_B1_17">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 09" pin_num="B4" pin_signal="GPIO_EMC_B1_18">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 10" pin_num="B2" pin_signal="GPIO_EMC_B1_23">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 11" pin_num="C4" pin_signal="GPIO_EMC_B1_19">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="ADDR, 12" pin_num="C3" pin_signal="GPIO_EMC_B1_20">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="BA, 0" pin_num="G2" pin_signal="GPIO_EMC_B1_21">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="BA, 1" pin_num="H2" pin_signal="GPIO_EMC_B1_22">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_clk" pin_num="J3" pin_signal="GPIO_EMC_B1_26">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_we" pin_num="E5" pin_signal="GPIO_EMC_B1_28">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_cas" pin_num="J5" pin_signal="GPIO_EMC_B1_24">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_ras" pin_num="J4" pin_signal="GPIO_EMC_B1_25">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DM, 0" pin_num="F5" pin_signal="GPIO_EMC_B1_08">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DM, 1" pin_num="J1" pin_signal="GPIO_EMC_B1_38">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 16" pin_num="K2" pin_signal="GPIO_EMC_B2_00">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 17" pin_num="K4" pin_signal="GPIO_EMC_B2_01">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 18" pin_num="K3" pin_signal="GPIO_EMC_B2_02">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 19" pin_num="R1" pin_signal="GPIO_EMC_B2_03">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 20" pin_num="M1" pin_signal="GPIO_EMC_B2_04">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 21" pin_num="N1" pin_signal="GPIO_EMC_B2_05">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 22" pin_num="T1" pin_signal="GPIO_EMC_B2_06">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 23" pin_num="M3" pin_signal="GPIO_EMC_B2_07">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 24" pin_num="N2" pin_signal="GPIO_EMC_B2_09">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 25" pin_num="R2" pin_signal="GPIO_EMC_B2_10">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 26" pin_num="L4" pin_signal="GPIO_EMC_B2_11">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Up"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 27" pin_num="M2" pin_signal="GPIO_EMC_B2_12">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 28" pin_num="K5" pin_signal="GPIO_EMC_B2_13">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 29" pin_num="M4" pin_signal="GPIO_EMC_B2_14">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 30" pin_num="L2" pin_signal="GPIO_EMC_B2_15">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DATA, 31" pin_num="P2" pin_signal="GPIO_EMC_B2_16">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DM, 2" pin_num="P1" pin_signal="GPIO_EMC_B2_08">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Up"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="DM, 3" pin_num="T2" pin_signal="GPIO_EMC_B2_17">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_cke" pin_num="G5" pin_signal="GPIO_EMC_B1_27">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="CS, 0" pin_num="E6" pin_signal="GPIO_EMC_B1_29">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_dqs" pin_num="J2" pin_signal="GPIO_EMC_B1_39">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Enable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_rdy" pin_num="K1" pin_signal="GPIO_EMC_B1_40">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="CLKX, 0" pin_num="U2" pin_signal="GPIO_EMC_B2_19">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="CLKX, 1" pin_num="R3" pin_signal="GPIO_EMC_B2_20">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="CSX, 0" pin_num="L1" pin_signal="GPIO_EMC_B1_41">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+                  <pin peripheral="SEMC" signal="semc_dqs4" pin_num="N3" pin_signal="GPIO_EMC_B2_18">
+                     <pin_features>
+                        <pin_feature name="software_input_on" value="Disable"/>
+                        <pin_feature name="pull_down_pull_up_config" value="Pull_Down"/>
+                        <pin_feature name="pdrv_config" value="High_Driver"/>
+                        <pin_feature name="open_drain" value="Disable"/>
+                     </pin_features>
+                  </pin>
+               </pins>
+            </function>
+         </functions_list>
+      </pins>
+      <clocks name="Clocks" version="7.0" enabled="false" update_project_code="true">
+         <clocks_profile>
+            <processor_version>N/A</processor_version>
+         </clocks_profile>
+         <clock_configurations/>
+      </clocks>
+      <dcdx name="DCDx" version="3.0" enabled="false" update_project_code="true">
+         <dcdx_profile>
+            <processor_version>N/A</processor_version>
+         </dcdx_profile>
+         <dcdx_configurations/>
+      </dcdx>
+      <periphs name="Peripherals" version="8.0" enabled="false" update_project_code="true">
+         <peripherals_profile>
+            <processor_version>N/A</processor_version>
+         </peripherals_profile>
+         <functional_groups/>
+         <components/>
+      </periphs>
+      <tee name="TEE" version="2.0" enabled="false" update_project_code="true">
+         <tee_profile>
+            <processor_version>N/A</processor_version>
+         </tee_profile>
+         <global_options/>
+         <user_memory_regions/>
+      </tee>
+   </tools>
+</configuration>

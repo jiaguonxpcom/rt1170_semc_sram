@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armJET.dll" 
+
+"C:\Users\nxa16038\Desktop\customer\Mitsubishi\semc_cm7_sram\debug\semc_cm7_sram.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
+
+--macro="C:\Users\nxa16038\Desktop\customer\Mitsubishi\semc_cm7_sram/evkmimxrt1170_connect_cm7.mac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\config\flashloader\NXP\NXP_RT1170_EVK_cm7.board" 
+
+
+
+

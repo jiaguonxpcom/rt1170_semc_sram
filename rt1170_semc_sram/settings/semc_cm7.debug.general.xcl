@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armjlink2.dll" 
+
+"C:\Users\nxa16038\Desktop\work\RT\RT1170\SDK\SDK_2.8.1_MIMXRT1170-EVK_PRC3_minimal\boards\evkmimxrt1170\driver_examples\semc\sdram\cm7\iar\debug\semc_cm7.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\bin\armbat.dll" 
+
+--macro="C:\Users\nxa16038\Desktop\work\RT\RT1170\SDK\SDK_2.8.1_MIMXRT1170-EVK_PRC3_minimal\boards\evkmimxrt1170\driver_examples\semc\sdram\cm7\iar/evkmimxrt1170_connect_cm7.mac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\config\flashloader\NXP\NXP_RT1170_EVK_cm7.board" 
+
+
+
+
